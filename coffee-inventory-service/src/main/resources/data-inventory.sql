@@ -1,4 +1,5 @@
-INSERT INTO inventory (coffee_name, stock_count) VALUES ('Espresso', 100);
-INSERT INTO inventory (coffee_name, stock_count) VALUES ('Latte', 200);
-INSERT INTO inventory (coffee_name, stock_count) VALUES ('Cappuccino', 300);
-INSERT INTO inventory (coffee_name, stock_count) VALUES ('Mocha', 400);
+INSERT INTO inventory (product_name, quantity) VALUES ('Espresso', 100);
+INSERT INTO inventory (product_name, quantity) VALUES ('Latte', 100);
+INSERT INTO inventory (product_name, quantity) VALUES ('Cappuccino', 100);
+INSERT INTO inventory (product_name, quantity) VALUES ('Mocha', 100);
+INSERT INTO inventory (product_name, quantity) VALUES ('Americano', 100);

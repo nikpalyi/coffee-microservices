@@ -1,5 +1,4 @@
-CREATE TABLE inventory (
-                           id INT AUTO_INCREMENT PRIMARY KEY,
-                           coffee_name VARCHAR(255) NOT NULL,
-                           stock_count INT NOT NULL
-);
+CREATE TABLE IF NOT EXISTS inventory ( id INT AUTO_INCREMENT PRIMARY KEY,
+                                       product_name VARCHAR(255) NOT NULL,
+    quantity INT NOT NULL
+    );
