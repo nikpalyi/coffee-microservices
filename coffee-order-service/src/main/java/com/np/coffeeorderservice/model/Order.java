@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 import java.time.LocalDateTime;
 
 @Entity
+@Table(name = "coffee_orders") // table name explicitly
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

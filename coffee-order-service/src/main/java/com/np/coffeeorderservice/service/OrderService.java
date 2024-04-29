@@ -16,9 +16,6 @@ public class OrderService {
         this.repository = repository;
     }
 
-
-
-    // Business methods that use the repository...
     public Order findOrderById(Long id) {
         return
                 repository.findById(id).orElse(null);

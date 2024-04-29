@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS orders (
+CREATE TABLE IF NOT EXISTS coffee_orders (
                                       id INT AUTO_INCREMENT PRIMARY KEY,
                                       product_name VARCHAR(255) NOT NULL,
     quantity INT NOT NULL,

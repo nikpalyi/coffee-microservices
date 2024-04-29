@@ -3,6 +3,7 @@ package com.np.coffeeinventoryservice.model;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "inventory")
 public class InventoryItem {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
