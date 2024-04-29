@@ -67,10 +67,4 @@ public class OrderController {
         orderService.deleteAllOrders();
         return ResponseEntity.ok().build();
     }
-
-    @GetMapping("/date/{startDate}/{endDate}")
-    public List<Order> findOrdersByOrderDateBetween(@PathVariable LocalDateTime startDate, @PathVariable LocalDateTime endDate) {
-        logger.debug("Received request to find orders between dates: {} and {}", startDate, endDate);
-        return orderService.findOrdersByOrderDateBetween(startDate, endDate);
-    }
 }

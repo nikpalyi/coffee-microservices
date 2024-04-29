@@ -46,14 +46,6 @@ public class OrderService {
         return repository.findByOrderDateBetween(startDate, endDate);
     }
 
-    public List<Order> findOrdersByOrderDateAfter(LocalDateTime startDate) {
-        return repository.findByOrderDateAfter(startDate);
-    }
-
-    public List<Order> findOrdersByOrderDateBefore(LocalDateTime endDate) {
-        return repository.findByOrderDateBefore(endDate);
-    }
-
     public List<Order> findOrdersByOrderDateBetweenAndProductName(LocalDateTime startDate, LocalDateTime endDate, String productName) {
         return repository.findByOrderDateBetweenAndProductName(startDate, endDate, productName);
     }
